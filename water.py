@@ -39,10 +39,9 @@ def estimate_Nitrate(image):
 # --- Main Program ---
 
 # Read the image
-img = cv2.imread("1.jpeg.jpg")  # Replace with your file path
+img = cv2.imread("2.jpeg.jpg")  # Replace with your file path
 
 if img is None:
-    
     raise ValueError("Image could not be read. Check the file path.")
 
 # Convert to grayscale
